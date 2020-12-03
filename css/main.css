@@ -599,7 +599,7 @@ header {
     margin: 0 auto;
     overflow: hidden;
   }
-  /* hearder */
+  /* header */
   .header_container {
     padding: 0 36px;
     padding-top: 30px;
@@ -864,6 +864,97 @@ header {
 
   .footer_contents p {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 376px) {
+  /* header */
+  .header_container {
+    width: 375px;
+    padding: 0 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  /* bg */
+  .bg_text h2 {
+    font-size: 28px;
+    line-height: 1.6;
+  }
+  /* page */
+  .page_container h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    margin-right: 0;
+    width: 100%;
+    font-size: 40px;
+  }
+  
+  .page_container h2::after {
+    width: 50%;
+    left: 50%;
+    transform: translateX(-100%);
+  }
+  /* banner */
+  .container h2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    margin-right: 0;
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .container h2::after {
+    width: 85%;
+    left: 50%;
+    transform: translateX(-58%);
+  }
+  /* ui */
+  .ui .container h2 {
+    margin-top: 17px;
+    margin-bottom: 100px;
+    margin-left: 130px;
+    margin-right: 0;
+    width: 100%;
+    font-size: 40px;
+  }
+  
+  .ui .container h2::after {
+    width: 30%;
+    left: 50%;
+    transform: translateX(-165%);
+  }
+  /* footer */
+  .footer_container h2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 110px;
+    margin-right: 0;
+    width: 100%;
+    font-size: 40px;
+  }
+  
+  .footer_container h2::after {
+    width: 45%;
+    left: 50%;
+    transform: translateX(-115%);
+  }
+
+  .footer_contents .item1 img {
+    width: 59px;
+    height: 46px;
+    margin-left: 29px;
+  }
+
+  .footer_contents .item2 img {
+    width: 59px;
+    height: 46px;
+    margin-left: 50px;
+  }
+
+  .footer_contents p {
+    font-size: 16px;
   }
 }
 
