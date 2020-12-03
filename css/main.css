@@ -868,6 +868,29 @@ header {
 }
 
 @media (max-width: 376px) {
+  .go_top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.12);
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+  }
+  
+  .go_top:hover i {
+    position: relative;
+    top: 0px;
+    top: 10px;
+    opacity: 0;
+    animation: wheel_ani 1.2s infinite;
+  }
   /* header */
   .header_container {
     width: 375px;
@@ -899,7 +922,7 @@ header {
   .container h2 {
     margin-top: 50px;
     margin-bottom: 100px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 0;
     width: 100%;
     font-size: 40px;
@@ -929,15 +952,16 @@ header {
   .footer_container h2 {
     margin-top: 50px;
     margin-bottom: 100px;
-    margin-left: 110px;
+    padding-left: 110px;
     margin-right: 0;
     width: 100%;
+    box-sizing: border-box;
     font-size: 40px;
   }
   
   .footer_container h2::after {
     width: 45%;
-    left: 50%;
+    left: 80%;
     transform: translateX(-115%);
   }
 
