@@ -893,7 +893,7 @@ header {
   }
   /* header */
   .header_container {
-    width: 375px;
+    width: 100%;
     padding: 0 20px;
     padding-top: 20px;
     box-sizing: border-box;
