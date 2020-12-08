@@ -871,11 +871,11 @@ header {
 @media (max-width: 376px) {
   /* header */
   header {
-    width: 375px;
+    width: 360px;
   }
 
   .header_container {
-    width: 375px;
+    width: 360px;
     padding: 0 20px;
     padding-top: 20px;
     box-sizing: border-box;
