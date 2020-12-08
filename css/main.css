@@ -898,6 +898,40 @@ header {
     padding-top: 20px;
     box-sizing: border-box;
   }
+
+  .about_text {
+    margin-left: 20px;
+  }
+
+  .about_text img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .about_text p {
+    font-size: 14px;
+  }
+
+  .about_text p span {
+    font-size: 11px;
+  }
+
+  .about_box > p {
+    margin-top: 60px;
+  }
+
+  .skill_img {
+    margin-left: 50px;
+  }
+
+  .skill_img img {
+    width: 35px;
+    height: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 50px;
+    margin-bottom: 40px;
+  }
   /* bg */
   .bg_text h2 {
     font-size: 28px;
@@ -948,6 +982,29 @@ header {
     left: 50%;
     transform: translateX(-165%);
   }
+
+  .slide{
+    width: 100%;
+    height: 613px;
+  }
+
+  .slide div {
+    width: 275px;
+    height: 513px;
+  }
+
+  .slide img {
+    width: 275px;
+    height: 513px;
+  }
+
+  .popup-modal-dismiss {
+    top: 0;
+    right: -5%;
+    font-size: 45px;
+    color: #fff;
+  }
+
   /* footer */
   .footer_container h2 {
     margin-top: 50px;
