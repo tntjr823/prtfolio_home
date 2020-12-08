@@ -603,6 +603,7 @@ header {
   .header_container {
     padding: 0 36px;
     padding-top: 30px;
+    box-sizing: border-box;
   }
 
   .header_container h1 a {
@@ -868,32 +869,13 @@ header {
 }
 
 @media (max-width: 376px) {
-  .go_top {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.12);
-    font-size: 24px;
-    text-align: center;
-    line-height: 50px;
-    cursor: pointer;
-    display: none;
-    z-index: 1;
-  }
-  
-  .go_top:hover i {
-    position: relative;
-    top: 0px;
-    top: 10px;
-    opacity: 0;
-    animation: wheel_ani 1.2s infinite;
-  }
   /* header */
+  header {
+    width: 375px;
+  }
+
   .header_container {
-    width: 100%;
+    width: 375px;
     padding: 0 20px;
     padding-top: 20px;
     box-sizing: border-box;
@@ -941,46 +923,54 @@ header {
   .page_container h2 {
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 90px;
+    padding-left: 90px;
     margin-right: 0;
     width: 100%;
     font-size: 40px;
+    box-sizing: border-box;
   }
   
   .page_container h2::after {
     width: 50%;
-    left: 50%;
+    left: 77%;
     transform: translateX(-100%);
   }
   /* banner */
   .container h2 {
     margin-top: 50px;
     margin-bottom: 100px;
-    margin-left: 20px;
+    padding-left: 20px;
     margin-right: 0;
     width: 100%;
     font-size: 40px;
+    box-sizing: border-box;
   }
 
   .container h2::after {
     width: 85%;
-    left: 50%;
+    left: 56%;
     transform: translateX(-58%);
   }
   /* ui */
   .ui .container h2 {
     margin-top: 17px;
     margin-bottom: 100px;
-    margin-left: 130px;
+    padding-left: 130px;
     margin-right: 0;
     width: 100%;
     font-size: 40px;
+    box-sizing: border-box;
   }
   
   .ui .container h2::after {
     width: 30%;
-    left: 50%;
+    left: 87%;
     transform: translateX(-165%);
+  }
+
+  .popup-modal img {
+    width: 275px;
+    height: 513px;
   }
 
   .slide{
